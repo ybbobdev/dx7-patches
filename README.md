@@ -4,7 +4,7 @@
 
 Alg 2
 
-|Operator | output level |
+|Op | output level |
 |---|---|
 |1| 99 |
 |2| 80 |
@@ -16,7 +16,7 @@ Alg 2
 feedback
  - 7 
 
-|Operator | frequency |
+|Op | frequency |
 |---|---|
 |1| 1.01 |
 |2| 1.00 |
@@ -25,12 +25,12 @@ feedback
 |5| 1.99 |
 |6| 1.00 |
 
-|Operator| detune |
+|Op| detune |
 |---|---|
 | 1 | -4 |
 | 2 | +3 |
 
-|Operator| key velocity |
+|Op| key velocity |
 |---|---|
 | 2 | 1 |
 | 3 | 1 |
@@ -69,7 +69,7 @@ mod wheel
  - range: 99
  - eg bias: on
 
-|Operator | amplitude mod sens |
+|Op | amplitude mod sens |
 |---|---|
 |1| 1 |
 |2| 3 |
