@@ -14,7 +14,7 @@ Alg 2
 |6| 52 |
 
 feedback
-- 7 
+ - 7 
 
 |Operator | frequency |
 |---|---|
@@ -38,15 +38,16 @@ feedback
 key transpose
 - c2
 
-EG level (1 to 4)
-1. 99 0 0 0 
-2. 99 0 0 0 
-3. 99 0 0 0 
-4. 99 0 0 0 
-5. 99 0 0 0 
-6. 99 0 0 0 
+| Op | EG level 1 | EG level 2 | EG level 3 | EG level 4 |
+|---|---|---|---|---|
+|1 | 99| 0| 0| 0|  
+|2 | 99| 0| 0| 0|  
+|3 | 99| 0| 0| 0|  
+|4 | 99| 0| 0| 0|  
+|5 | 99| 0| 0| 0|  
+|6 | 99| 0| 0| 0|  
 
-| EG rate | 1 | 2 | 3 | 4 |
+| Op | EG rate 1 | EG rate 2 | EG rate 3 | EG rate 4 |
 |---|---|---|---|---|
 | 1 | 70 | 20 | 99 | 45 |
 | 2 | 99 | 10 | 99 | 0 |
@@ -57,7 +58,7 @@ EG level (1 to 4)
 
 | lfo  | value |
 |---|---|
-| wave | sine 
+| wave | sine |
 | speed | 5 |
 | delay | 0 |
 | pm depth | 5 |
@@ -65,10 +66,8 @@ EG level (1 to 4)
 | sync | off |
 
 mod wheel
-
-range: 99
-
-eg bias: on
+ - range: 99
+ - eg bias: on
 
 |Operator | amplitude mod sens |
 |---|---|
@@ -80,4 +79,4 @@ eg bias: on
 |6| 3 |
 
 mode sync
-osc key sync: off
+ - osc key sync: off
