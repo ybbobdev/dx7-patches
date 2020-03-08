@@ -46,33 +46,38 @@ EG level (1 to 4)
 5. 99 0 0 0 
 6. 99 0 0 0 
 
-EG rate (1 to 4)
-1. 70 20 99 45
-2. 99 10 99 0
-3. 60 20 99 45
-4. 99 20 99 0
-5. 99 0 99 0
-6. 99 0 99 0
+| EG rate | 1 | 2 | 3 | 4 |
+|---|---|---|---|---|
+| 1 | 70 | 20 | 99 | 45 |
+| 2 | 99 | 10 | 99 | 0 |
+| 3 | 60 | 20 | 99 | 45 |
+| 4 | 99 | 20 | 99 | 0 |
+| 5 | 99 | 0 | 99 | 0 |
+| 6 | 99 | 0 | 99 | 0 |
 
-lfo
-wave: sine
-speed: 5 
-delay: 0
-pm depth: 5
-am depth: 20
-sync: off
+| lfo  | value |
+|---|---|
+| wave | sine 
+| speed | 5 |
+| delay | 0 |
+| pm depth | 5 |
+| am depth | 20 |
+| sync | off |
 
 mod wheel
+
 range: 99
+
 eg bias: on
 
-amplitude mod sens
-1. 1
-2. 3
-3. 1
-4. 3
-5. 3
-6. 3
+|Operator | amplitude mod sens |
+|---|---|
+|1| 1 |
+|2| 3 |
+|3| 1 |
+|4| 3 |
+|5| 3 |
+|6| 3 |
 
 mode sync
 osc key sync: off
