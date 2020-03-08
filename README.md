@@ -15,19 +15,21 @@ output level
 feedback
 - 7 
 
-frequency
-1. 1.01
-2. 1.00
-3. 1.00
-4. 1.00
-5. 1.99
-6. 1.00
+|Operator | frequency |
+|---|---|
+|1| 1.01 |
+|2| 1.00 |
+|3| 1.00 |
+|4| 1.00 |
+|5| 1.99 |
+|6| 1.00 |
 
-detune
-1. -4
-2. +3
+|Operator| detune |
+|---|---|
+| 1 | -4 |
+| 2 | +3 |
 
-|oporator| key velocity |
+|Operator| key velocity |
 |---|---|
 | 2 | 1 |
 | 3 | 1 |
