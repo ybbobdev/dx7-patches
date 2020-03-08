@@ -27,9 +27,10 @@ detune
 1. -4
 2. +3
 
-key velocity
-2. 1
-3. 1
+|oporator| key velocity |
+|---|---|
+| 2 | 1 |
+| 3 | 1 |
 
 key transpose
 - c2
